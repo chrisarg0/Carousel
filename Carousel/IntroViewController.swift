@@ -21,27 +21,16 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        scrollView.contentSize = CGSize(width: 1336, height: 376)
+        scrollView.contentSize = CGSize(width: 376, height: 1336)
         scrollView.delegate = self
-        image1.transform = CGAffineTransform(rotationAngle: 0.25)
-        image2.transform = CGAffineTransform(rotationAngle: -0.25)
-        image3.transform = CGAffineTransform(rotationAngle: 0.25)
-        image4.transform = CGAffineTransform(rotationAngle: -0.25)
-        image5.transform = CGAffineTransform(rotationAngle: 0.25)
-        image6.transform = CGAffineTransform(rotationAngle: -0.25)
+        // image1.transform = CGAffineTransform(rotationAngle: 0.25)
+        //image2.transform = CGAffineTransform(rotationAngle: -0.25)
+        //image3.transform = CGAffineTransform(rotationAngle: 0.25)
+        //image4.transform = CGAffineTransform(rotationAngle: -0.25)
+        //image5.transform = CGAffineTransform(rotationAngle: 0.25)
+        //image6.transform = CGAffineTransform(rotationAngle: -0.25)
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
-        // Get the current page based on the scroll offset
-        let page : Int = Int(round(scrollView.contentOffset.x / 376))
-        // Set the current page, so the dots will update
-        
-    }
 
 }
