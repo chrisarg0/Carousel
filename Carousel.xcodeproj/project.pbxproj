@@ -14,10 +14,15 @@
 		0114B95E1DB609900029A3EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0114B95C1DB609900029A3EC /* LaunchScreen.storyboard */; };
 		0114B9691DB609900029A3EC /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114B9681DB609900029A3EC /* CarouselTests.swift */; };
 		0114B9741DB609900029A3EC /* CarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114B9731DB609900029A3EC /* CarouselUITests.swift */; };
+		013F0C491DBE7E21007023EB /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013F0C481DBE7E21007023EB /* ConversationsViewController.swift */; };
+		013F0C4B1DBE815E007023EB /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013F0C4A1DBE815E007023EB /* TimelineViewController.swift */; };
+		013F0C4D1DBE82A8007023EB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013F0C4C1DBE82A8007023EB /* SettingsViewController.swift */; };
+		013F0C4F1DBE8FCA007023EB /* LearnMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013F0C4E1DBE8FCA007023EB /* LearnMoreViewController.swift */; };
 		01EFB0E01DBADF250054F5C3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EFB0DF1DBADF250054F5C3 /* WelcomeViewController.swift */; };
 		01EFB0E21DBAE1F90054F5C3 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EFB0E11DBAE1F90054F5C3 /* Common.swift */; };
 		01EFB0E61DBBD73E0054F5C3 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EFB0E51DBBD73E0054F5C3 /* IntroViewController.swift */; };
 		01EFB0E81DBBDD460054F5C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EFB0E71DBBDD460054F5C3 /* LoginViewController.swift */; };
+		01EFB0EA1DBC06840054F5C3 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EFB0E91DBC06840054F5C3 /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +56,15 @@
 		0114B96F1DB609900029A3EC /* CarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0114B9731DB609900029A3EC /* CarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselUITests.swift; sourceTree = "<group>"; };
 		0114B9751DB609900029A3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013F0C481DBE7E21007023EB /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		013F0C4A1DBE815E007023EB /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		013F0C4C1DBE82A8007023EB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		013F0C4E1DBE8FCA007023EB /* LearnMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnMoreViewController.swift; sourceTree = "<group>"; };
 		01EFB0DF1DBADF250054F5C3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		01EFB0E11DBAE1F90054F5C3 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		01EFB0E51DBBD73E0054F5C3 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		01EFB0E71DBBDD460054F5C3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		01EFB0E91DBC06840054F5C3 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +151,11 @@
 				01EFB0DF1DBADF250054F5C3 /* WelcomeViewController.swift */,
 				01EFB0E51DBBD73E0054F5C3 /* IntroViewController.swift */,
 				01EFB0E71DBBDD460054F5C3 /* LoginViewController.swift */,
+				01EFB0E91DBC06840054F5C3 /* CreateAccountViewController.swift */,
+				013F0C481DBE7E21007023EB /* ConversationsViewController.swift */,
+				013F0C4A1DBE815E007023EB /* TimelineViewController.swift */,
+				013F0C4C1DBE82A8007023EB /* SettingsViewController.swift */,
+				013F0C4E1DBE8FCA007023EB /* LearnMoreViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -282,9 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01EFB0EA1DBC06840054F5C3 /* CreateAccountViewController.swift in Sources */,
 				01EFB0E81DBBDD460054F5C3 /* LoginViewController.swift in Sources */,
 				01EFB0E61DBBD73E0054F5C3 /* IntroViewController.swift in Sources */,
+				013F0C4F1DBE8FCA007023EB /* LearnMoreViewController.swift in Sources */,
+				013F0C4D1DBE82A8007023EB /* SettingsViewController.swift in Sources */,
+				013F0C491DBE7E21007023EB /* ConversationsViewController.swift in Sources */,
 				01EFB0E21DBAE1F90054F5C3 /* Common.swift in Sources */,
+				013F0C4B1DBE815E007023EB /* TimelineViewController.swift in Sources */,
 				01EFB0E01DBADF250054F5C3 /* WelcomeViewController.swift in Sources */,
 				0114B9561DB609900029A3EC /* ViewController.swift in Sources */,
 				0114B9541DB609900029A3EC /* AppDelegate.swift in Sources */,
