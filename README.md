@@ -38,8 +38,8 @@ Time spent: `<Number of hours spent>`
   - [x] User sees the form scale up and fade it in as the screen appears.
 1. Sign up / Create a Dropbox:
   - [x] Tapping in the form reveals the keyboard and scrolls the form and button up so they remain visible.
-  - [ ] Tapping the "Agree to Terms" checkbox selects the checkbox.
-  - [ ] Tapping on "Terms" shows a web view with the terms.
+  - [x] Tapping the "Agree to Terms" checkbox selects the checkbox.
+  - [x] Tapping on "Terms" shows a web view with the terms.
   - [x] User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
 1. Tutorial Screens:
   - [x] User can page between the screens with updated dots.
