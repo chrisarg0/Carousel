@@ -29,6 +29,7 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
         scrollView.contentSize = scrollView.frame.size
         // Set the content insets
         scrollView.contentInset.bottom = 100
+        scrollView.delegate = self
         
         // assign values to our variables
         formInitialY = fieldParentView.frame.origin.y
@@ -50,9 +51,23 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
             // Any code you put in here will be called when the keyboard is about to hide
             self.fieldParentView.frame.origin.y = self.formInitialY
             self.buttonParentView.frame.origin.y = self.btnInitialY
+            
+            func keyboardWillHide(notification: NSNotification) {
+                // Move the buttons back down to it's original position
+                self.buttonParentView.frame.origin.y = self.btnInitialY
+            }
         }
     }
 
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        // If the scrollView has been scrolled down by 50px or more...
+        if scrollView.contentOffset.y <= -50 {
+            // Hide the keyboard
+            view.endEditing(true)
+            print("scroll view is scrolling")
+        }
+    }
+    
     @IBAction func didPressBackBtn(_ sender: AnyObject) {
         navigationController!.popViewController(animated: true)
     }
@@ -98,8 +113,6 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
             activityIndicator.stopAnimating()
             self.performSegue(withIdentifier: "signInSegue", sender: nil)
         }
-
-    
     }
     
 
