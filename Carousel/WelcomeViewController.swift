@@ -27,7 +27,7 @@ class WelcomeViewController: UIViewController, UIScrollViewDelegate {
     
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         // Get the current page based on the scroll offset
-        let page : Int = Int(round(scrollView.contentOffset.x / 376))
+        let page : Int = Int(round(scrollView.contentOffset.x / 375))
         // Set the current page, so the dots will update
         pageView.currentPage = page
         

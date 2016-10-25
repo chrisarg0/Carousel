@@ -26,7 +26,16 @@ class LearnMoreViewController: UIViewController {
     }
     
     @IBAction func option1Tap(_ sender: AnyObject) {
-        sender.isSelected = true
-        sender.isSelected = !sender.isSelected
+        // sender.isSelected = true
+        // sender.isSelected = !sender.isSelected
     }
+    
+    @IBAction func option2Tap(_ sender: AnyObject) {
+    }
+    
+    @IBAction func option3Tap(_ sender: AnyObject) {
+    }
+    
+    
+    
 }

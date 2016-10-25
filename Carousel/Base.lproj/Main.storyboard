@@ -11,15 +11,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="IntroViewController" customModule="Carousel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="376" height="1336"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1336"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" id="Eeg-FS-lbL">
                                 <frame key="frameInset"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="intro" id="pt8-1G-NAd">
-                                        <rect key="frame" x="0.0" y="0.0" width="376" height="1336"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="intro" id="pt8-1G-NAd">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1336"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" misplaced="YES" id="62o-A8-LFU">
@@ -30,24 +30,24 @@
                                                 <frame key="frameInset" minX="1" minY="180" width="90" height="90"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="intro_tile1" id="3iI-5C-ipX">
-                                                <frame key="frameInset" minY="-3" width="181" height="183"/>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="intro_tile4" id="lBu-Dd-ODe">
+                                                <frame key="frameInset" minX="91" minY="180" width="90" height="90"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="intro_tile3" id="piu-Gh-JQE">
                                                 <frame key="frameInset" minX="181" minY="90" width="90" height="90"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="intro_tile4" id="lBu-Dd-ODe">
-                                                <frame key="frameInset" minX="91" minY="180" width="90" height="90"/>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="intro_tile2" id="L7g-td-rZc">
+                                                <frame key="frameInset" minX="181" minY="-2" width="90" height="90"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="intro_tile6" id="1vL-pa-4iV">
                                                 <frame key="frameInset" minX="182" minY="180" width="90" height="90"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="intro_tile2" id="L7g-td-rZc">
-                                                <frame key="frameInset" minX="181" minY="-2" width="90" height="90"/>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="intro_tile1" id="3iI-5C-ipX">
+                                                <frame key="frameInset" minY="-3" width="181" height="183"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                             </imageView>
                                         </subviews>
@@ -67,6 +67,13 @@
                                             <segue destination="xRq-Sm-Z21" kind="push" id="3FL-XS-yY1"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Swipe up to continue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MbQ-a0-O0I">
+                                        <rect key="frame" x="8" y="354" width="359" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </scrollView>
@@ -76,7 +83,7 @@
                     <navigationItem key="navigationItem" id="zdk-uw-c9b"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="376" height="1336"/>
+                    <size key="freeformSize" width="375" height="1336"/>
                     <connections>
                         <outlet property="image1" destination="3iI-5C-ipX" id="nWL-M3-BNj"/>
                         <outlet property="image2" destination="L7g-td-rZc" id="Oxh-zR-SJT"/>
@@ -84,12 +91,13 @@
                         <outlet property="image4" destination="s5H-cD-eTv" id="Tfa-3g-Wfo"/>
                         <outlet property="image5" destination="lBu-Dd-ODe" id="if7-xe-WXj"/>
                         <outlet property="image6" destination="1vL-pa-4iV" id="dBB-Ix-AA2"/>
+                        <outlet property="imageView" destination="pt8-1G-NAd" id="1oe-ym-4vZ"/>
                         <outlet property="scrollView" destination="Eeg-FS-lbL" id="Lvs-Bc-M82"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="668" y="122"/>
+            <point key="canvasLocation" x="667.5" y="122"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="u3Q-oc-QlQ">
@@ -341,7 +349,7 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="uTp-K5-kmz">
-                                <frame key="frameInset" minX="1420" minY="530" width="51" height="31"/>
+                                <frame key="frameInset" minX="1416" minY="530" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JIr-RP-fmB">
@@ -383,11 +391,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="feed" id="uDu-L7-zlq">
-                                        <rect key="frame" x="0.0" y="52" width="374" height="1799"/>
+                                        <rect key="frame" x="0.0" y="52" width="375" height="1799"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="banner" id="rge-1v-ZRN">
-                                        <rect key="frame" x="1" y="0.0" width="374" height="50"/>
+                                        <rect key="frame" x="1" y="0.0" width="375" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8WN-S0-1hz">
@@ -521,6 +529,30 @@
                                 <state key="focused" backgroundImage="checkbox_complete"/>
                                 <connections>
                                     <action selector="option1Tap:" destination="vTB-6i-ogL" eventType="touchUpInside" id="yEq-7P-bWB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="SjW-Iy-gAj">
+                                <frame key="frameInset" minX="24" minY="480" width="28" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="checkbox_unchecked"/>
+                                <state key="selected" backgroundImage="checkbox_complete"/>
+                                <state key="highlighted" backgroundImage="check_box_selected"/>
+                                <state key="focused" backgroundImage="checkbox_complete"/>
+                                <connections>
+                                    <action selector="option1Tap:" destination="vTB-6i-ogL" eventType="touchUpInside" id="3F2-ic-dtw"/>
+                                    <action selector="option2Tap:" destination="vTB-6i-ogL" eventType="touchUpInside" id="8Q0-CY-fls"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RCW-Kn-Q3c">
+                                <frame key="frameInset" minX="24" minY="555" width="28" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="checkbox_unchecked"/>
+                                <state key="selected" backgroundImage="checkbox_complete"/>
+                                <state key="highlighted" backgroundImage="check_box_selected"/>
+                                <state key="focused" backgroundImage="checkbox_complete"/>
+                                <connections>
+                                    <action selector="option1Tap:" destination="vTB-6i-ogL" eventType="touchUpInside" id="okz-e8-JXC"/>
+                                    <action selector="option3Tap:" destination="vTB-6i-ogL" eventType="touchUpInside" id="vpJ-3l-n8S"/>
                                 </connections>
                             </button>
                         </subviews>
