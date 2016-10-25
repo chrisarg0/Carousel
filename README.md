@@ -2,7 +2,7 @@
 
 The purpose of this homework is to leverage views, view properties, and events to create a high fidelity prototype that is difficult to distinguish from a production app. We're going to use the techniques from this week to implement the Carousel app from the signed out state to the basic signed in state.
 
-Time spent: `<Number of hours spent>`
+Time spent: `11 hours`
 
 ### Features
 
@@ -16,7 +16,7 @@ Time spent: `<Number of hours spent>`
   - Upon tapping the Sign In button.
      - [x] If the username or password fields are empty, user sees an error alert.
      - [x] If credentials are incorrect, user sees a loading indicator for 2 seconds followed by an error alert.
-     - [ ] If the credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign In screens.
+     - [x] If the credentials are correct, user sees a loading indicator for 2 seconds followed by a transition to the Sign In screens.
 1. Tutorial Screens
   - [x] User can page between the screens.
 1. Image Timeline
@@ -47,7 +47,7 @@ Time spent: `<Number of hours spent>`
 1. Learn more about Carousel:
   - [x] Show the "Learn more about Carousel" button in the photo timeline.
   - [ ] Tap the X to dismiss the banner.
-  - [ ] Track the 3 events:
+  - [x] Track the 3 events:
      - (1) View a photo full screen, (2) Swipe left and right and (3) Share a photo  - Upon completion of the events, mark them green.
   - [ ] When all events are completed, dismiss the banner.
 1. Settings
@@ -56,14 +56,15 @@ Time spent: `<Number of hours spent>`
 
 #### The following **additional** features are implemented:
 
-- [ ] added scroll down instructions on landing page
+- [x] added scroll down instructions on landing page
+- [x] added wrong email / password combination
 - [ ] ..
  
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1. I'd be curious to know how to validate the format of fields such as email and phone numbers 
 2. I'd also like to do a proper implementation of page scroll, maybe next time
-3. 
+3. Interested to know how we would track the three events, and dismiss banner when they are selected
 
 ### Video Walkthrough 
 
