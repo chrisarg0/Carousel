@@ -32,18 +32,18 @@ Time spent: `<Number of hours spent>`
 ### Optional User Stories
 
 1. Landing Screen:  
-  - [ ] Photo tiles move, scale and rotate while user scrolls.
+  - [x] Photo tiles move, scale and rotate while user scrolls.
 1. Sign In:
-  - [ ] User can scroll down to dismiss keyboard.
-  - [ ] User sees the form scale up and fade it in as the screen appears.
+  - [x] User can scroll down to dismiss keyboard.
+  - [x] User sees the form scale up and fade it in as the screen appears.
 1. Sign up / Create a Dropbox:
-  - [ ] Tapping in the form reveals the keyboard and scrolls the form and button up so they remain visible.
+  - [x] Tapping in the form reveals the keyboard and scrolls the form and button up so they remain visible.
   - [ ] Tapping the "Agree to Terms" checkbox selects the checkbox.
   - [ ] Tapping on "Terms" shows a web view with the terms.
-  - [ ] User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
+  - [x] User is taken to the tutorial screens upon tapping the "Create a Dropbox" button.
 1. Tutorial Screens:
-  - [ ] User can page between the screens with updated dots.
-  - [ ] Upon reaching the 4th page, the page indicator dots are hidden and "Take Carousel for a Spin" button is shown.
+  - [x] User can page between the screens with updated dots.
+  - [x] Upon reaching the 4th page, the page indicator dots are hidden and "Take Carousel for a Spin" button is shown.
 1. Learn more about Carousel:
   - [x] Show the "Learn more about Carousel" button in the photo timeline.
   - [ ] Tap the X to dismiss the banner.
@@ -56,13 +56,14 @@ Time spent: `<Number of hours spent>`
 
 #### The following **additional** features are implemented:
 
-- [ ] added scroll down pulsing animation to let user know that they should scroll down to see more
+- [ ] added scroll down instructions on landing page
 - [ ] ..
  
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
-2. 
+1. I'd be curious to know how to validate the format of fields such as email and phone numbers 
+2. I'd also like to do a proper implementation of page scroll, maybe next time
+3. 
 
 ### Video Walkthrough 
 
