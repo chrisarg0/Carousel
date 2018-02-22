@@ -4,6 +4,14 @@ The purpose of this homework is to leverage views, view properties, and events t
 
 Time spent: `11 hours`
 
+### Video Walkthrough 
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/chrisarg0/Carousel/blob/master/CarouselAppWalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
 ### Features
 
 ### Required User Stories
@@ -65,14 +73,6 @@ Please list two areas of the assignment you'd like to **discuss further with you
 1. I'd be curious to know how to validate the format of fields such as email and phone numbers 
 2. I'd also like to do a proper implementation of page scroll, maybe next time
 3. Interested to know how we would track the three events, and dismiss banner when they are selected
-
-### Video Walkthrough 
-
-Here's a walkthrough of implemented user stories:
-
-<img src='https://github.com/chrisarg0/Carousel/blob/master/CarouselAppWalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
